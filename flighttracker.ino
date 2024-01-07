@@ -9,10 +9,10 @@ const char* rapidApiHost = "flight-radar1.p.rapidapi.com";
 const char* flightRadarApiUrl = "/flights/list-in-boundary"; // Retrieves the relevant data
 
 // Creating a bounary based on co-ordinates for Airbus Headquarters, Blagnac
-const float blLat = 43.659844;  // Bottom left latitude
-const float blLng = -3.218513;  // Bottom left longitude
-const float trLat = 51.504536;  // Top right latitude
-const float trLng = -3.111396;  // Top right longitude
+const float blLat = 43.575328;  // Bottom left latitude
+const float blLng = 1.313557;  // Bottom left longitude
+const float trLat = 43.659844;  // Top right latitude
+const float trLng = 1.435969;  // Top right longitude
 const int limit = 1;            // Number of flights to retrieve at a time
 
 
