@@ -8,7 +8,7 @@ const char* rapidApiHost = "flight-radar1.p.rapidapi.com";
 
 const char* flightRadarApiUrl = "/flights/list-in-boundary"; // Retrieves the relevant data
 
-// Creating a bounary based on co-ordinates for Airbus Headquarters, Blagnac
+// Creating a boundary based on co-ordinates for Airbus Headquarters, Blagnac
 const float blLat = 43.575328;  // Bottom left latitude
 const float blLng = 1.313557;  // Bottom left longitude
 const float trLat = 43.659844;  // Top right latitude
@@ -30,7 +30,7 @@ const size_t JSON_BUFFER_SIZE = 2048;  // Define the JSON buffer size
 #define SCREEN_ADDRESS 0x3C
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 
-const int buttonPin = 1;  // Pin for the momentary push button
+const int buttonPin = 15;  // Pin for the momentary push button
 const int ledPin = 4;
 bool buttonState = false;    // State of the button
 bool buttonPressed = false;  // Flag indicating if the button is pressed
@@ -419,7 +419,7 @@ void printAircraftData(const char* payload) {
 
 void setup() {
   Serial.begin(230400);
-  Wire.begin(8, 9);
+  Wire.begin(21, 22);
 
   WiFiManager wm;
 
