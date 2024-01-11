@@ -43,3 +43,10 @@ To create the graphics for the OLED display, I opted for Figma, a versatile desi
 ![image](https://github.com/kxvassiliou0/flighttracker/assets/34982747/ddeabc5b-5e9e-4520-b363-40cb252d6b24)
 _The above shows my Figma workspace for this project, at the end of my design process._
 
+### Final Images
+To enhance the overall look, I incorporated a laser-cut acrylic tinted cover, providing a sophisticated appeal while showcasing the internal components.
+
+![image1](https://github.com/kxvassiliou0/flighttracker/assets/34982747/f969fac8-3aad-4208-84fd-03a7e05d662e)
+![image0](https://github.com/kxvassiliou0/flighttracker/assets/34982747/eccfee3d-215e-4e97-818b-1e87e5c7fbe4)
+![image3](https://github.com/kxvassiliou0/flighttracker/assets/34982747/f52692e2-80cd-4f52-b5af-76820ec2aa4a)
+
